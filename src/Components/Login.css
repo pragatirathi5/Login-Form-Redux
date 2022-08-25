@@ -1,0 +1,46 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+}
+
+.loginform {
+    flex-direction: column;
+    display: flex;
+}
+
+.loginform > input {
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family:"Inter";
+    font-size: 15px;
+}
+
+.loginform > h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.submitbtn {
+    min-width: 300px;
+    margin-top: 20px;
+    padding: 17px 30px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter";
+    border-radius: 3px;
+    font-weight: 400;
+}
